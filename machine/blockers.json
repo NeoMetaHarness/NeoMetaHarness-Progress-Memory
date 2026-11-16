@@ -1,11 +1,4 @@
 {
   "schema_version": 1,
-  "blockers": [
-    {
-      "id": "ORG-ACCESS-001",
-      "what": "Account neosmartuiux membership in NeoMetaHarness is pending (role member); repo creation needs an active owner or member with create rights",
-      "next": "Accept the invitation and grant owner role, or create the repos from an owner account",
-      "since": "2026-11-16"
-    }
-  ]
+  "blockers": []
 }

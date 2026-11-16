@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "id": "P0-1",
-  "title": "Create org repos and push product repo",
+  "id": "P0-3",
+  "title": "Seam spikes a-g",
   "owner_repo": "NeoMetaHarness/NeoMetaHarness",
-  "status": "blocked"
+  "status": "todo"
 }
