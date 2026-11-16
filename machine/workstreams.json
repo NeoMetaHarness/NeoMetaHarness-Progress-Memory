@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "workstreams": [
+    "foundation",
+    "kernel-app",
+    "agents",
+    "computers",
+    "memory-skills",
+    "coding",
+    "super-agent"
+  ]
+}

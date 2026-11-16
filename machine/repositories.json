@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "source_of_truth": "NeoMetaHarness/NeoMetaHarness/machine/repositories.json",
+  "note": "Mirror pointer for session routing."
+}

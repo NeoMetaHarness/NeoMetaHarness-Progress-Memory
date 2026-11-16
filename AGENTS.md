@@ -1,0 +1,12 @@
+# AGENTS.md: NeoMetaHarness-Progress-Memory
+
+Owns: Current task, blockers, handoffs, workstreams.
+
+- Maintain continuity without duplicating canonical specifications.
+- Update live state only from evidence; tool-call success is not proof of completion.
+- If machine state and prose disagree, machine state wins until reconciled.
+- Every handoff ends with one precise next action.
+- Never store secrets, API keys, session tokens or private user data.
+
+## GitHub safety circuit breaker
+Follow `docs/policies/GITHUB-SAFETY-GUARDRAILS.md` and `machine/github-guardrails.json` (mode `local_only_no_actions`): no GitHub Actions, work and test locally, at most 20 GitHub writes per task, stop on 403/429 and ask a human.
